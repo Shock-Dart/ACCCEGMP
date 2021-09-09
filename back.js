@@ -5,7 +5,7 @@ app.route('/test')
   .get(function(req, res) {
     res.setHeader('Content-Type', 'application/json');
     res.status(200);
-    res.end(JSON.stringify({ id: 1, message: 'Probado el server GET' }));
+    res.end(JSON.stringify({ message: 'Se aprobaron todas las pruebas del servidor Node.' }));
   })
   .post(function(req, res) {
     res.setHeader('Content-Type', 'application/json');
